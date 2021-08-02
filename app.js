@@ -1,7 +1,15 @@
 alert("Hello ")
 let name = prompt("What is your Name?")
 alert("Hello "+ name)
-console.log(name);
+console.log(name)
+document.write('<p style="text-align: center; color:gold;">' +'Your Name is: '+ name + '</p>')
+
+let Age = Number(prompt("What is your Age?"));
+alert("Your Age is: "+ Age)
+console.log(Age);
+document.write('<p style="text-align: center; color:gold;">' +'Your Age is: '+ Age + '</p>')
+
+
 
 let FavBrowser = prompt(name +" What is Your Favorite Browser ?  \n 1. Google Chrome \n 2. Brave \n 3. Opera ");
 console.log(FavBrowser);
@@ -53,4 +61,8 @@ document.write("None");
 }
 }
 statement();
+
+let Why = prompt("Why You Love This Browser ??")
+console.log(Why);
+document.write('<p style="text-align: center; color:gold;">' +'You Love This Browser Because: '+ Why + '</p>');
 

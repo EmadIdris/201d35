@@ -86,3 +86,13 @@ script
     border-width: 4px;
     border-style: ridge;
 }
+#Que
+{
+    border-width:5px;  
+    border-style:double;
+text-align: center;
+font-style: italic;
+font-size:30px;
+letter-spacing: 4px;
+color: gold;
+}
